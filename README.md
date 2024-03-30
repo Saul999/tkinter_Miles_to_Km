@@ -1,1 +1,3 @@
-# tkinter_Miles_to_Km
+# tkinter Miles to Km Converter
+
+Tkinter practice for fun
