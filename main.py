@@ -4,6 +4,7 @@ from tkinter import *
 window = Tk()
 window.title("Mile to Km Converter")
 window.minsize(width=350, height=100)
+window.config(padx=20, pady=20)
 
 # text for is equal to
 equal_text = Label(text="is equal to")
@@ -28,7 +29,7 @@ km_value.grid(column=1, row=1)
 # FCN to calc m to km
 def calculate_km():
     value = int(input_miles.get())
-    km = value / 1000
+    km = value * 1.609
     km_value["text"] = km
 
 # button to convert m to km and display it in km label
